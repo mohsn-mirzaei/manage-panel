@@ -11,7 +11,7 @@ interface ApiResponse<T> {
 }
 
 const axiosInstance = axios.create({
-  baseURL: "https://dbjson.mohsenmirzaei.ir/api/",
+  baseURL: "https://db-manage-panel.mohsenmirzaei.dev/api/",
 });
 
 class APIClient<T> {
