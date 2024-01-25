@@ -86,7 +86,7 @@ const SupportPage = ({ params }: { params: { token: string } }) => {
       <Header
         title={data?.message}
         buttonTitle="ارسال تیکت"
-        onClick={() => router.push(`/support/newticket/${params.token}`)}
+        onClick={() => router.push(`/support/newticket`)}
       />
 
       {data?.tickets.length !== 0 ? (
