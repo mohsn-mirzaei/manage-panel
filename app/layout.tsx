@@ -2,7 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import localfont from "next/font/local";
 import SideBar from "./SideBar";
-import TokenProvider from "./context/TokenContextProvider";
 import QueryClientProvider from "./QueryClientProvider";
 import NavBar from "./NavBar";
 
@@ -24,15 +23,13 @@ export default function RootLayout({
     <html lang="fa" dir="rtl" className={iranYekan.className}>
       <body className="lg:flex lg:justify-center p-5">
         <QueryClientProvider>
-          <TokenProvider>
-            <NavBar />
-            <SideBar />
-            <main className="w-full max-w-[1024px] px-4 grid grid-cols-8">
-              <div className="col-span-8 rounded-lg border-2 border-grade2 p-3 sm:p-7">
-                {children}
-              </div>
-            </main>
-          </TokenProvider>
+          <NavBar />
+          <SideBar />
+          <main className="w-full max-w-[1024px] px-4 grid grid-cols-8">
+            <div className="col-span-8 rounded-lg border-2 border-grade2 p-3 sm:p-7">
+              {children}
+            </div>
+          </main>
         </QueryClientProvider>
       </body>
     </html>

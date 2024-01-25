@@ -24,10 +24,7 @@ const SupportPage = ({ params }: { params: { token: string } }) => {
       className="bg-white dark:border-gray-700 dark:bg-gray-800"
     >
       <Table.Cell>
-        <Link
-          href={`/support/${ticket.ticket_no}/${params.token}`}
-          className="text-sm"
-        >
+        <Link href={`/support/${ticket.ticket_no}`} className="text-sm">
           <Button color="gray" size="xs">
             مشاهده
           </Button>
@@ -74,7 +71,7 @@ const SupportPage = ({ params }: { params: { token: string } }) => {
       <InformationItem
         title="جزئیات"
         badgeChild={
-          <Link href={`/support/${ticket.ticket_no}/${params.token}`}>
+          <Link href={`/support/${ticket.ticket_no}`}>
             <Button color="gray" size="xs">
               مشاهده
             </Button>

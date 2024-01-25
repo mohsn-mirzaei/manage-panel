@@ -1,18 +1,17 @@
 "use client";
 
-import Link from "next/link";
-import Image from "next/image";
-import useUserInfo from "./hook/useUserInfo";
-import NavigationLinks from "./entities/NavigationLinks";
 import logo from "@/public/next.svg";
+import Image from "next/image";
+import Link from "next/link";
+import NavigationLinks from "./entities/NavigationLinks";
+import useUserInfo from "./hook/useUserInfo";
 
-import { IoPersonCircleOutline } from "react-icons/io5";
+import { usePathname } from "next/navigation";
 import { FaCoins } from "react-icons/fa6";
-import { IoDiamondSharp } from "react-icons/io5";
+import { IoDiamondSharp, IoPersonCircleOutline } from "react-icons/io5";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { RiLogoutBoxRFill } from "react-icons/ri";
 import { linkColor } from "./entities/activeColor";
-import { usePathname } from "next/navigation";
 
 import "react-loading-skeleton/dist/skeleton.css";
 import SideBarSkeletons from "./components/skeletons/SideBarSkeletons";

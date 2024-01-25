@@ -1,19 +1,19 @@
 "use client";
 
+import LoadingPage from "@/app/components/LoadingPage";
 import useTickets from "@/app/hook/useTickets";
-import classNames from "classnames";
-import { Accordion, Button, Label, Spinner, Textarea } from "flowbite-react";
-import { FaUser } from "react-icons/fa6";
-import { useForm, Controller } from "react-hook-form";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { useRouter } from "next/navigation";
 import APIClient from "@/app/services/api-client";
 import { useMutation } from "@tanstack/react-query";
-import LoadingPage from "@/app/components/LoadingPage";
+import classNames from "classnames";
+import { Accordion, Button, Label, Spinner, Textarea } from "flowbite-react";
+import { useRouter } from "next/navigation";
+import { Controller, useForm } from "react-hook-form";
+import { FaUser } from "react-icons/fa6";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 interface Props {
-  params: { ticket: string; token: string };
+  params: { ticket: string };
 }
 
 interface ReplayTicket {
@@ -30,13 +30,9 @@ const TicketsDetailPage = ({ params }: Props) => {
 
   const mutation = useMutation({
     mutationFn: (replayTicket: ReplayTicket) => {
-      return apiClient.post(
-        {
-          description: replayTicket.description,
-          // ticket_no: params.token,
-        }
-        // params.ticket
-      );
+      return apiClient.post({
+        description: replayTicket.description,
+      });
     },
     onSuccess: (res) => {
       if (res.status === 201)
@@ -83,7 +79,7 @@ const TicketsDetailPage = ({ params }: Props) => {
   if (error) return null;
 
   return (
-    <div>
+    <>
       <Accordion collapseAll>
         <Accordion.Panel>
           <Accordion.Title>پاسخ دهید</Accordion.Title>
@@ -119,7 +115,7 @@ const TicketsDetailPage = ({ params }: Props) => {
       </Accordion>
       {data?.tickets.map(
         (ticket) =>
-          ticket.ticket_no === params.token &&
+          ticket.ticket_no === params.ticket &&
           ticket.detail.map((item) => (
             <div key={item.date_time} className="border mt-4">
               <div
@@ -153,7 +149,7 @@ const TicketsDetailPage = ({ params }: Props) => {
       <Button
         className="mt-4"
         color="gray"
-        onClick={() => router.push(`/support/${params.ticket}`)}
+        onClick={() => router.push(`/support`)}
       >
         بازگشت
       </Button>
@@ -169,7 +165,7 @@ const TicketsDetailPage = ({ params }: Props) => {
         pauseOnHover
         theme="light"
       />
-    </div>
+    </>
   );
 };
 

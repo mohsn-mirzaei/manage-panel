@@ -25,10 +25,7 @@ const NewTicketPage = ({ params }: Props) => {
 
   const mutation = useMutation({
     mutationFn: (newTicket: NewTicket) => {
-      return apiClient.post(
-        newTicket
-        //  params.token
-      );
+      return apiClient.post(newTicket);
     },
     onSuccess: (res) => {
       if (res.status === 201)
@@ -100,10 +97,7 @@ const NewTicketPage = ({ params }: Props) => {
           >
             ارسال درخواست
           </Button>
-          <Button
-            color="gray"
-            onClick={() => router.push(`/support/${params.token}`)}
-          >
+          <Button color="gray" onClick={() => router.push(`/support`)}>
             بازگشت
           </Button>
         </div>

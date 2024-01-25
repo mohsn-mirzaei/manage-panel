@@ -1,22 +1,16 @@
-import { useContext } from "react";
-
 import { FaInfoCircle } from "react-icons/fa";
 import { IoIosNotifications } from "react-icons/io";
 import { FaMoneyBillTransfer } from "react-icons/fa6";
 import { FiActivity } from "react-icons/fi";
 import { AiFillWechat } from "react-icons/ai";
 
-import TokenContext from "../context/tokenContext";
-
 const NavigationLinks = () => {
-  const { token } = useContext(TokenContext);
-
-  const userinfoLink = `/userinfo/${token}`;
-  const notificationsLink = `/notifications/${token}`;
-  const turnoverLink = `/turnover/${token}`;
-  const activitiesLink = `/activities/${token}`;
-  const chatsLink = `/chats/${token}`;
-  const supportLink = `/support/${token}`;
+  const userinfoLink = `/userinfo`;
+  const notificationsLink = `/notifications`;
+  const turnoverLink = `/turnover`;
+  const activitiesLink = `/activities`;
+  const chatsLink = `/chats`;
+  const supportLink = `/support`;
 
   const links = [
     {
