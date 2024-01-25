@@ -1,6 +1,6 @@
 "use client";
 
-import useUserInfo from "@/app/hook/useUserInfo";
+import useUserInfo from "@/app/hooks/useUserInfo";
 import { List } from "flowbite-react";
 
 export default function Home() {
@@ -41,7 +41,7 @@ export default function Home() {
         >
           من
         </a>{" "}
-        قابل مشاهده است
+        قابل مشاهده است.
       </p>
     </div>
   );

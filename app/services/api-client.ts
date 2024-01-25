@@ -21,33 +21,14 @@ class APIClient<T> {
     this.endpoint = endpoint;
   }
 
-  getAll = () =>
-    // token: string
-    {
-      return axiosInstance
-        .get<ApiResponse<T>>(this.endpoint, {
-          // headers: {
-          //   Authorization: `Bearer ${token}`,
-          // },
-        })
-        .then((res) => res.data);
-    };
+  getAll = () => {
+    return axiosInstance
+      .get<ApiResponse<T>>(this.endpoint, {})
+      .then((res) => res.data);
+  };
 
-  post = (
-    data: object
-    //  token: string
-  ) => {
-    return axiosInstance.post(
-      this.endpoint,
-      data
-      // null
-      //  {
-      // params: data,
-      // headers: {
-      //   Authorization: `Bearer ${token}`,
-      // },
-      // }
-    );
+  post = (data: object) => {
+    return axiosInstance.post(this.endpoint, data);
   };
 }
 

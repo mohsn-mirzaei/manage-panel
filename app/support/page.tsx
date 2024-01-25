@@ -4,7 +4,7 @@ import Header from "@/app/components/Header";
 import InformationItem from "@/app/components/InformationItem";
 import LoadingPage from "@/app/components/LoadingPage";
 import NotFindPage from "@/app/components/NotFindPage";
-import useTickets from "@/app/hook/useTickets";
+import useTickets from "@/app/hooks/useTickets";
 import classNames from "classnames";
 import { Badge, Button, Card, Table } from "flowbite-react";
 import Link from "next/link";

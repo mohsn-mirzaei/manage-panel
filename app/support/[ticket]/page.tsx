@@ -1,7 +1,7 @@
 "use client";
 
 import LoadingPage from "@/app/components/LoadingPage";
-import useTickets from "@/app/hook/useTickets";
+import useTickets from "@/app/hooks/useTickets";
 import APIClient from "@/app/services/api-client";
 import { useMutation } from "@tanstack/react-query";
 import classNames from "classnames";

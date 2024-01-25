@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import NavigationLinks from "./entities/NavigationLinks";
 import logo from "@/public/next.svg";
-import useUserInfo from "./hook/useUserInfo";
+import useUserInfo from "./hooks/useUserInfo";
 import { usePathname, useRouter } from "next/navigation";
 import { Dropdown, Navbar } from "flowbite-react";
 import { IoPersonCircleOutline } from "react-icons/io5";

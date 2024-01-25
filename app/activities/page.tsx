@@ -3,7 +3,7 @@
 import Header from "@/app/components/Header";
 import LoadingPage from "@/app/components/LoadingPage";
 import NotFindPage from "@/app/components/NotFindPage";
-import useActivities from "@/app/hook/useActivites";
+import useActivities from "@/app/hooks/useActivites";
 
 const ActivitiesPage = () => {
   const { data, isLoading, error } = useActivities();

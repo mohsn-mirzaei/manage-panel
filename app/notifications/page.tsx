@@ -4,7 +4,7 @@ import Header from "@/app/components/Header";
 import LoadingPage from "@/app/components/LoadingPage";
 import NotFindPage from "@/app/components/NotFindPage";
 import NotificationTableBody from "@/app/components/notifications/NotificationTableBody";
-import useNotification from "@/app/hook/useNotifications";
+import useNotification from "@/app/hooks/useNotifications";
 import { Accordion, Table } from "flowbite-react";
 
 const NotificationPage = () => {

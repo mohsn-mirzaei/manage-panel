@@ -5,7 +5,7 @@ import LoadingPage from "@/app/components/LoadingPage";
 import NotFindPage from "@/app/components/NotFindPage";
 import MessageBox from "@/app/components/messages/MessageBox";
 import MessageFooter from "@/app/components/messages/MessageFooter";
-import useConversations from "@/app/hook/useConversations";
+import useConversations from "@/app/hooks/useConversations";
 import { Card } from "flowbite-react";
 
 const ChatsPage = () => {

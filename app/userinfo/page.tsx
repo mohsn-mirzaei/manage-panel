@@ -5,7 +5,7 @@ import Header from "@/app/components/Header";
 import InformationItem from "@/app/components/InformationItem";
 import "react-loading-skeleton/dist/skeleton.css";
 
-import useUserInfo from "@/app/hook/useUserInfo";
+import useUserInfo from "@/app/hooks/useUserInfo";
 import UserInfoSkeletons from "@/app/components/skeletons/UserInfoSkeletons";
 
 const UserInfoPage = () => {

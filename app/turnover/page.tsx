@@ -5,7 +5,7 @@ import LoadingPage from "@/app/components/LoadingPage";
 import NotFindPage from "@/app/components/NotFindPage";
 import TurnoverCard from "@/app/components/turnover/TurnoverCard";
 import TurnoverTableBody from "@/app/components/turnover/TurnoverTableBody";
-import useTurnover from "@/app/hook/useTurnover";
+import useTurnover from "@/app/hooks/useTurnover";
 import { Table } from "flowbite-react";
 
 const TurnoverPage = () => {

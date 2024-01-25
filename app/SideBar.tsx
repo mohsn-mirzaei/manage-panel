@@ -4,7 +4,7 @@ import logo from "@/public/next.svg";
 import Image from "next/image";
 import Link from "next/link";
 import NavigationLinks from "./entities/NavigationLinks";
-import useUserInfo from "./hook/useUserInfo";
+import useUserInfo from "./hooks/useUserInfo";
 
 import { usePathname } from "next/navigation";
 import { FaCoins } from "react-icons/fa6";
