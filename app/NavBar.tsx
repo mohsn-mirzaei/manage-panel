@@ -65,7 +65,7 @@ const NavBar = () => {
             پشتیبانی
           </Dropdown.Item>
           <Dropdown.Divider />
-          <Dropdown.Item>درباره</Dropdown.Item>
+          <Dropdown.Item onClick={() => router.push("/")}>درباره</Dropdown.Item>
         </Dropdown>
         <Navbar.Toggle />
       </div>
