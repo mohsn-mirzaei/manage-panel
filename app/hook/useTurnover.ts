@@ -1,6 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import { useContext } from "react";
-import TokenContext from "../context/tokenContext";
 import APIClient from "../services/api-client";
 
 interface Turnover {
@@ -17,18 +15,9 @@ interface Turnover {
 const apiClient = new APIClient<Turnover>("/data");
 
 const useTurnover = () => {
-  // const { token } = useContext(TokenContext);
-
   const { data, error, isLoading } = useQuery({
-    queryKey: [
-      "turnover",
-      //  token
-    ],
-    queryFn: () =>
-      apiClient
-        .getAll
-        // token
-        (),
+    queryKey: ["turnover"],
+    queryFn: () => apiClient.getAll(),
   });
 
   return { data, error, isLoading };

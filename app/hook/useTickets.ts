@@ -1,6 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import { useContext } from "react";
-import TokenContext from "../context/tokenContext";
 import APIClient from "../services/api-client";
 
 interface Detail {
@@ -23,18 +21,9 @@ interface Tickets {
 const apiClient = new APIClient<Tickets>("/data");
 
 const useConversations = () => {
-  // const { token } = useContext(TokenContext);
-
   const { data, error, isLoading, refetch } = useQuery({
-    queryKey: [
-      "tickets",
-      //  token
-    ],
-    queryFn: () =>
-      apiClient
-        .getAll
-        // token
-        (),
+    queryKey: ["tickets"],
+    queryFn: () => apiClient.getAll(),
   });
 
   return { data, error, isLoading, refetch };

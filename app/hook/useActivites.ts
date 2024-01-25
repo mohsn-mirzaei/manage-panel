@@ -1,6 +1,4 @@
 import { useQuery } from "@tanstack/react-query";
-import { useContext } from "react";
-import TokenContext from "../context/tokenContext";
 import APIClient from "../services/api-client";
 
 interface Activities {
@@ -13,18 +11,9 @@ interface Activities {
 const apiClient = new APIClient<Activities>("/data");
 
 const useConversations = () => {
-  // const { token } = useContext(TokenContext);
-
   const { data, error, isLoading } = useQuery({
-    queryKey: [
-      "ativities",
-      //  token
-    ],
-    queryFn: () =>
-      apiClient
-        .getAll
-        // token
-        (),
+    queryKey: ["ativities"],
+    queryFn: () => apiClient.getAll(),
   });
 
   return { data, error, isLoading };
