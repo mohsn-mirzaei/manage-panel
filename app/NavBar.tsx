@@ -65,7 +65,7 @@ const NavBar = () => {
             پشتیبانی
           </Dropdown.Item>
           <Dropdown.Divider />
-          <Dropdown.Item>بازگشت به بازی</Dropdown.Item>
+          <Dropdown.Item>درباره</Dropdown.Item>
         </Dropdown>
         <Navbar.Toggle />
       </div>

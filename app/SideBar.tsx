@@ -10,7 +10,7 @@ import { usePathname } from "next/navigation";
 import { FaCoins } from "react-icons/fa6";
 import { IoDiamondSharp, IoPersonCircleOutline } from "react-icons/io5";
 import { MdOutlineSupportAgent } from "react-icons/md";
-import { RiLogoutBoxRFill } from "react-icons/ri";
+import { FaCircleQuestion } from "react-icons/fa6";
 import { linkColor } from "./entities/activeColor";
 
 import "react-loading-skeleton/dist/skeleton.css";
@@ -85,8 +85,8 @@ const SideBar = () => {
             <Link href="/">
               <li className="flex items-center pb-2 text-xs font-semibold">
                 <div className={linkColor("/", currentPath)}>
-                  <RiLogoutBoxRFill color="#71717a" size={24} />
-                  <span className="text-zinc-600">بازگشت به بازی</span>
+                  <FaCircleQuestion color="#71717a" size={24} />
+                  <span className="text-zinc-600">درباره</span>
                 </div>
               </li>
             </Link>
