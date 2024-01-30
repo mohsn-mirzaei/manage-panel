@@ -6,6 +6,10 @@ Built a modern web app using TypeScript and Next.js, featuring sleek UI with Rea
 
 Welcome to the Parent Panel Management! This web application designed to meet the needs of parents, emphasizing the crucial role of effective coordination between families and the education-focused Shemshad game. This application comes equipped with unique features tailored to enhance the overall experience for parents.
 
+Demo:
+[manage-panel.mohsenmirzaei.dev](http://manage-panel.mohsenmirzaei.dev/)
+
+
 ## Key Features
 
 1. **Student Information Viewing:** Easily access and view detailed information about your students.
