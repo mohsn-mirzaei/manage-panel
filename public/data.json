@@ -1,0 +1,249 @@
+{
+  "data": {
+    "profile": [
+      {
+        "name": "محسن میرزایی",
+        "alias": "",
+        "birthday": "1382/10/29",
+        "gender": "male",
+        "mobile_number": "09351382820",
+        "plan_expire": "پرداخت شده",
+        "coin_remain": "1106",
+        "diamond_remain": "157.153",
+        "grade_name": "دانشجوی کارشناسی",
+        "current_level": "10"
+      }
+    ],
+    "notifications": [
+      {
+        "date_time": "1402/10/03 02:44:18",
+        "subject": "پیشنهاد ویژه برای اولین ورود به نسخه دمو",
+        "description": "<p>سی&zwnj;درصد تخفیف برروی طرح های سه ماهه، شش ماهه و یکساله ویژه اولین ثبت نام در نسخه دمو به مدت دو روز تا <strong><span style=\"color:#e74c3c\">1402/10/05</span></strong> مخصوص شما. لطفا هنگام خرید کد تخفیف <span style=\"color:#3498db\">1000 </span>را وارد نمایید</p>"
+      }
+    ],
+    "turnover": [
+      {
+        "date_time": "1402/09/30 11:11:54",
+        "amount": "1500000",
+        "reference_no": "6315485",
+        "psp": "myket",
+        "description": null,
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/09/30 11:11:21",
+        "amount": "1500000",
+        "reference_no": "9853906",
+        "psp": "myket",
+        "description": null,
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/09/30 11:11:03",
+        "amount": "900000",
+        "reference_no": "8684717",
+        "psp": "myket",
+        "description": null,
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/09/30 11:10:45",
+        "amount": "900000",
+        "reference_no": "4514384",
+        "psp": "myket",
+        "description": null,
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/09/30 11:10:24",
+        "amount": "900000",
+        "reference_no": "4597939",
+        "psp": "myket",
+        "description": null,
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/09/30 11:10:19",
+        "amount": "900000",
+        "reference_no": "3844012",
+        "psp": "myket",
+        "description": "سه ماه استفاده از گفت و گوی هوشمند شمشاد بر پایه هوش مصنوعی با صد و پنجاه الماس   ",
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/09/30 11:10:13",
+        "amount": "900000",
+        "reference_no": "3048294",
+        "psp": "myket",
+        "description": null,
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/09/30 11:10:08",
+        "amount": "900000",
+        "reference_no": "316236",
+        "psp": "myket",
+        "description": null,
+        "grade_name": "اول",
+        "status": "2",
+        "status_description": "پرداخت ناموفق"
+      },
+      {
+        "date_time": "1402/07/05 17:06:19",
+        "amount": "90000",
+        "reference_no": "3334044634",
+        "psp": "zibal",
+        "description": "سه ماه استفاده از خدمات شمشاد به همراه هزار سکه و صد و پنجاه الماس",
+        "grade_name": "اول",
+        "status": "1",
+        "status_description": "پرداخت موفق"
+      }
+    ],
+    "activities": [
+      {
+        "start_date_time": "1402/08/07 08:08:30",
+        "comment1": "پیاده سازی و طراحی وب اپلیکیشن قرض الحسنه",
+        "comment2": "پیاده سازی فرانت‌اند با استفاده از کتابخانه ری‌اکت",
+        "coin": "10"
+      },
+      {
+        "start_date_time": "1402/08/07 08:06:49",
+        "comment1": "پیاده سازی و طراحی وب اپلیکیشن پنل مدیریتی ",
+        "comment2": "پیاده سازی فرانت‌اند با استفاده از فریم ورک نکست",
+        "coin": "20"
+      },
+      {
+        "start_date_time": "1402/08/07 08:03:37",
+        "comment1": "پیاده سازی و طراحی وب اپلیکیشن ذخیره سازی اطلاعات گیمیفیکیشن نبرد پادشاهان",
+        "comment2": "پیاده سازی فرانت‌اند با استفاده از کتابخانه ری‌اکت",
+        "coin": "6"
+      },
+      {
+        "start_date_time": "1402/08/06 14:32:16",
+        "comment1": "پیاده سازی سایت فروشگاهی فروش عمده موبایل",
+        "comment2": "پیاده سازی فرانت‌اند با استفاده از کتابخانه ری‌اکت",
+        "coin": "1000"
+      },
+      {
+        "start_date_time": "1402/08/06 14:18:13",
+        "comment1": "انجام پروژه‌های آموزشی و تمرینی فرانت اند",
+        "comment2": "انجام پروژه‌های آموزشی و تمرینی فرانت اند با استفاده از کتابخانه ری‌اکت و فریم ورک نکست",
+        "coin": "100"
+      }
+    ],
+    "conversations": [
+      [
+        {
+          "date_time": "1402/07/23 08:59:57",
+          "question": "سلام، چگونه می‌توانم با شما ارتباط بگیرم؟",
+          "answer": "با سلام و احترام، سریع ترین راه ارتباطی با من از طریق ایمیل بنده است.",
+          "diamond": -0.037
+        }
+      ],
+      [
+        {
+          "date_time": "1402/07/19 08:26:56",
+          "question": "می‌توانم ایمیل شما را داشته باشم؟",
+          "answer": "mohsn.mirzaei@gmail.com",
+          "diamond": -0.017
+        }
+      ],
+      [
+        {
+          "date_time": "1402/07/18 15:47:12",
+          "question": "دیگر راه‌های ارتباطی با شما چیست؟",
+          "answer": "از طریق شبکه‌های اجتماعی مثل لینکدین، تلگرام، اینستاگرام",
+          "diamond": -0.037
+        }
+      ],
+      [
+        {
+          "date_time": "1402/07/18 06:46:29",
+          "question": "لینک آن‌ها را کجا می‌توانم پیدا کنم؟",
+          "answer": "لینک شبکه‌های اجتماعی که در آن‌ها فعال هستم، در پوتفولیوی شخصی‌ام ذکر شده است: www.mohsenmirzaei.ir",
+          "diamond": -0.04
+        }
+      ],
+      [
+        {
+          "date_time": "1402/07/18 05:37:31",
+          "question": "تخصص های شما چیست؟",
+          "answer": "برای دریافت اطلاعات کامل، پورتفولیوی شخصی‌ام را بررسی کنید.",
+          "diamond": -0.043
+        }
+      ]
+    ],
+    "tickets": [
+      {
+        "ticket_no": "10013",
+        "date_time": "1402/10/09 19:46:42",
+        "subject": "پروژه قرض الحسنه",
+        "category": "",
+        "status": "1",
+        "status_description": "ایجادشده ‌توسط ‌کاربر",
+        "detail": [
+          {
+            "date_time": "1402/10/10 19:46:42",
+            "description": "پروژه در حال انجام...",
+            "user_name": "محسن میرزایی",
+            "user_type": 0
+          }
+        ]
+      },
+      {
+        "ticket_no": "10013",
+        "date_time": "1402/10/11 19:46:42",
+        "subject": "پروژه‌های آموزشی",
+        "category": "",
+        "status": "2",
+        "status_description": "پاسخ داده شده ‌توسط ‌کاربر",
+        "detail": [
+          {
+            "date_time": "1402/10/12 19:46:42",
+            "description": "پایان پروژه",
+            "user_name": "محسن میرزایی",
+            "user_type": 0
+          }
+        ]
+      },
+      {
+        "ticket_no": "10000",
+        "date_time": "1402/10/08 16:38:47",
+        "subject": "تست تیکت در سیستم تیکت پشتیبانی",
+        "category": "",
+        "status": "0",
+        "status_description": "بسته شده",
+        "detail": [
+          {
+            "date_time": "1402/10/08 16:38:47",
+            "description": "شرح اولین تیکت قرار داده شده توسط کاربر",
+            "user_name": "محسن میرزایی",
+            "user_type": 0
+          },
+          {
+            "date_time": "1402/10/15 02:57:10",
+            "description": "شرح اولین پاسخ داده شده توسط کارشناس \r\nدقت کنید این پاسخ می تواند تا 2000 کلمه باشد",
+            "user_name": "محسن میرزایی",
+            "user_type": 1
+          }
+        ]
+      }
+    ]
+  },
+  "newTicket": [],
+  "replayTicket": []
+}

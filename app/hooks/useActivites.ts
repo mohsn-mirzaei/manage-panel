@@ -1,5 +1,7 @@
-import { useQuery } from "@tanstack/react-query";
-import APIClient from "../services/api-client";
+// import { useQuery } from "@tanstack/react-query";
+// import APIClient from "../services/api-client";
+
+import jsonData from "../../public/data.json";
 
 interface Activities {
   coin: number;
@@ -8,13 +10,17 @@ interface Activities {
   start_date_time: string;
 }
 
-const apiClient = new APIClient<Activities>("/data");
+// const apiClient = new APIClient<Activities>("/data");
 
 const useConversations = () => {
-  const { data, error, isLoading } = useQuery({
-    queryKey: ["ativities"],
-    queryFn: () => apiClient.getAll(),
-  });
+  // const { data, error, isLoading } = useQuery({
+  //   queryKey: ["ativities"],
+  //   queryFn: () => apiClient.getAll(),
+  // });
+
+  const data = jsonData.data;
+  const isLoading = false;
+  const error = null;
 
   return { data, error, isLoading };
 };

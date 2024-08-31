@@ -1,5 +1,3 @@
-"use client";
-
 import Header from "@/app/components/Header";
 import LoadingPage from "@/app/components/LoadingPage";
 import NotFindPage from "@/app/components/NotFindPage";
@@ -14,7 +12,7 @@ const ActivitiesPage = () => {
 
   return (
     <>
-      <Header title={data?.message} />
+      <Header title={"فعالیت ها"} />
       {data?.activities.length !== 0 ? (
         <ol className="relative border-s border-gray-200 dark:border-gray-700 mt-5">
           {data?.activities.map((activity) => (

@@ -84,7 +84,7 @@ const SupportPage = ({ params }: { params: { token: string } }) => {
   return (
     <>
       <Header
-        title={data?.message}
+        title={"پشتیبانی"}
         buttonTitle="ارسال تیکت"
         onClick={() => router.push(`/support/newticket`)}
       />

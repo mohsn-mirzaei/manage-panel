@@ -38,7 +38,7 @@ const TurnoverPage = () => {
 
   return (
     <>
-      <Header title={data?.message} />
+      <Header title={"گردش مالی"} />
       {data?.turnover.length !== 0 ? (
         <div className="overflow-x-auto mt-5">
           <Table dir="ltr" className="hidden md:table">

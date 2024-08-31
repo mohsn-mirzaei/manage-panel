@@ -1,5 +1,3 @@
-"use client";
-
 import Header from "@/app/components/Header";
 import LoadingPage from "@/app/components/LoadingPage";
 import NotFindPage from "@/app/components/NotFindPage";
@@ -17,7 +15,7 @@ const ChatsPage = () => {
 
   return (
     <>
-      <Header title={data?.message} />
+      <Header title={"گفتگو"} />
       {data?.conversations.length !== 0 ? (
         data?.conversations.map((conv) => (
           <Card key={conv[0].date_time} className="mt-5">

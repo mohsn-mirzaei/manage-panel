@@ -1,5 +1,3 @@
-"use client";
-
 import useUserInfo from "@/app/hooks/useUserInfo";
 import { List } from "flowbite-react";
 

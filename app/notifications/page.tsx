@@ -45,7 +45,7 @@ const NotificationPage = () => {
 
   return (
     <>
-      <Header title={data?.message} />
+      <Header title={"اعلان‌ها"} />
       {data?.notifications.length !== 0 ? (
         <div className="overflow-x-auto mt-5">
           <Table className="hidden md:table" dir="ltr">

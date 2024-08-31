@@ -1,5 +1,3 @@
-"use client";
-
 import { Button } from "flowbite-react";
 import Header from "@/app/components/Header";
 import InformationItem from "@/app/components/InformationItem";
