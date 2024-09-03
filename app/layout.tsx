@@ -1,9 +1,10 @@
-import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import localfont from "next/font/local";
-import SideBar from "./SideBar";
-import QueryClientProvider from "./QueryClientProvider";
+import "./globals.css";
 import NavBar from "./NavBar";
+import QueryClientProvider from "./QueryClientProvider";
+import SideBar from "./SideBar";
 
 const iranYekan = localfont({
   src: "../public/fonts/Qs_Iranyekan.woff2",
@@ -30,6 +31,7 @@ export default function RootLayout({
               {children}
             </div>
           </main>
+          <Analytics />
         </QueryClientProvider>
       </body>
     </html>
